@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cmath>
-#include <clocale>
 #include "Sphere.h"
 
 using namespace std;
@@ -9,11 +8,11 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int r = 0;
-    cout << "Ââåäèòå ðàäèóñ êðóãà:" << endl;
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã°Ã Ã¤Ã¨Ã³Ã± ÃªÃ°Ã³Ã£Ã :" << endl;
     cin >> r;
-    cout << "Äëèíà îêðóæíîñòè == " << len_okr(r) << endl;
-    cout << "Ïëîùàäü îêðóæíîñòè == " << sq_okr(r) << endl;
-    cout << "Ïëîùàäü ïîâåðõ. ñô. == " << sq_okr_sf(r) << endl;
-    cout << "Îáúåì øàðà == " << ob_shara(r) << endl;
+    cout << "Ã„Ã«Ã¨Ã­Ã  Ã®ÃªÃ°Ã³Ã¦Ã­Ã®Ã±Ã²Ã¨ == " << len_okr(r) << endl;
+    cout << "ÃÃ«Ã®Ã¹Ã Ã¤Ã¼ Ã®ÃªÃ°Ã³Ã¦Ã­Ã®Ã±Ã²Ã¨ == " << sq_okr(r) << endl;
+    cout << "ÃÃ«Ã®Ã¹Ã Ã¤Ã¼ Ã¯Ã®Ã¢Ã¥Ã°Ãµ. Ã±Ã´. == " << sq_okr_sf(r) << endl;
+    cout << "ÃŽÃ¡ÃºÃ¥Ã¬ Ã¸Ã Ã°Ã  == " << ob_shara(r) << endl;
     return 0;
 }
